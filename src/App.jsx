@@ -1,13 +1,17 @@
 import { useState } from 'react'
 
 import './App.css'
-import Console from './components/Console'
+import Console from './components/Console/Console'
+import Header from './components/Header/Header'
+import Homepage from './components/Homepage/Homepage'
 
 function App() {
-
   return (
-    <Console />
-    
+    <div className='main-app-wrapper'>
+      <Header />
+      <Homepage />
+
+    </div>
   )
 }
 
